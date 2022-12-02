@@ -1,5 +1,5 @@
 from process import preparation, generate_response
-from flask import Flask, render_template, request
+from flask import Flask, request
 
 # download nltk
 preparation()
